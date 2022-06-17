@@ -1,0 +1,362 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./image/game_screen.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+body #box {
+    position: relative;
+    top: 18%;
+    left: 22%;
+    height: 48%;
+    width: 61%;
+}
+#glow{
+    width: 4vw;
+    height: 7vh;
+    position:absolute ;
+    z-index: 25;
+    display: none;
+}
+   
+body #box span {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(223, 213, 75);
+    position: relative;
+    display: block;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+}
+
+#img {
+    display: block;
+    left: 21.5vw;
+    bottom: 15.5vh;
+    width: 543px;
+    height: 500px;
+    position: absolute;
+    background-image: url(./image/BOARD.png);
+    background-size: 100% 100%;
+}
+
+#e1 {
+    top: -4%;
+    z-index: 22;
+}
+
+#d1 {
+    top: 2%;
+    z-index: 23;
+}
+
+#c1 {
+    top: 8%;
+    z-index: 24;
+}
+
+#b1 {
+    top: 14%;
+    z-index: 25;
+}
+
+#a1 {
+    z-index: 26;
+    top: 20%;
+
+}
+
+#f1 {
+    top: -10%;
+    z-index: 21;
+}
+
+#g1 {
+    top: -16%;
+    z-index: 20;
+}
+
+#h1 {
+    top: -22%;
+    z-index: 19;
+}
+
+#i1 {
+    top: -28%;
+    z-index: 18;
+}
+
+#j1 {
+    top: -34%;
+    z-index: 17;
+}
+
+#k1 {
+    top: -40%;
+    z-index: 16;
+}
+
+#l1 {
+    top: -46%;
+    z-index: 15;
+}
+
+#m1 {
+    top: -52%;
+    z-index: 14;
+}
+
+#n1 {
+    top: -58%;
+    z-index: 13;
+}
+
+#o1 {
+    top: -64%;
+    z-index: 12;
+}
+
+#E1 {
+    display: block;
+    height: 175px;
+    width: 29px;
+    position: relative;
+    background-color: #dfd54b;
+    top: -387%;
+    border-radius: 20px;
+    left: 19%;
+    z-index: 0;
+}
+#Eh1 {
+    
+    display: block;
+    height: 28px;
+    width: 136px;
+    position: relative;
+    background-color: #dfd54b;
+    top: -460%;
+    border-radius: 20px;
+    left: 19%;
+    z-index: 0;
+
+}
+#Eh2 {
+    display: block;
+    height: 28px;
+    width: 96px;
+    position: relative;
+    background-color: #dfd54b;
+    top: -442%;
+    border-radius: 20px;
+    left: 19%;
+    z-index: 0;
+}
+#Eh3{
+    display: block;
+    height: 28px;
+    width: 132px;
+    position: relative;
+    background-color: #dfd54b;
+    top: -422%;
+    border-radius: 20px;
+    left: 19%;
+    z-index: 0;
+}
+
+body #box a {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(223, 213, 75);
+    position: relative;
+    display: block;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eh11 {
+    left: 20%;
+    top: -136%;
+    z-index: 9;
+}
+#eh12 {
+    left: 24%;
+    top: -146.7%;
+    z-index: 8;
+}
+#eh13 {
+    left: 28%;
+    top: -157.5%;
+    z-index: 7;
+}
+#eh14 {
+    left: 32%;
+    top: -168.2%;
+    z-index: 6;
+}
+#eh15 {
+    left: 36%;
+    top: -178.4%;
+    z-index: 5;
+}
+#eh16 {
+    left: 40%;
+    top: -188.8%;
+    z-index: 4;
+}
+
+#eh17 {
+    left: 44%;
+    top: -198.9%;
+    z-index: 3;
+}
+#eh18 {
+    left: 48%;
+    top: -209%;
+    z-index: 2;
+}#eh19 {
+    left: 52%;
+    top: -219.1%;
+    z-index: 1;
+}
+
+body #box e {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(223, 213, 75);
+    position: relative;
+    display: block;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eh21 {
+    left: 20%;
+    top: -201%;
+    z-index: 6;
+}
+#eh22 {
+    left: 24%;
+    top: -210.9%;
+    z-index: 5;
+}
+#eh23 {
+    left: 28%;
+    top: -221.4%;
+    z-index: 4;
+}
+#eh24 {
+    left: 32%;
+    top: -231.5%;
+    z-index: 3;
+}
+#eh25 {
+    left: 36%;
+    top: -242.1%;
+    z-index: 2;
+}
+#eh26 {
+    left: 40%;
+    top: -252.6%;
+    z-index: 1;
+}
+#clgreen, #clred, #clblue{
+    position: absolute;
+    height:16vh;
+}
+#clgreen{
+    bottom: 16vh;
+    right: 34.5vw;
+    z-index: -1;
+}
+#clred{
+    right: 32.2vw;
+    bottom: 15vh;
+    transform: rotate(8deg);
+}
+#clblue{
+    bottom: 15vh;
+    right: 36.5vw;
+    transform: rotate(349deg);
+}
+#bucket{
+position: absolute;
+    height: 14vh;
+    bottom: 6vh;
+    right: 32.5vw;
+    width: 7.5vw;
+}
+
+body #box c {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(223, 213, 75);
+    position: relative;
+    display: block;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eh31{
+    top: -232%;
+    left: 20%;
+    z-index: 9;
+}
+#eh32{
+    top: -241.6%;
+    left: 25%;
+    z-index: 8;
+}
+#eh33{
+    top: -252%;
+    left: 29%;
+    z-index: 7;
+}
+#eh34{
+    top: -262.6%;
+    left: 33%;
+    z-index: 6;
+}
+#eh35{
+    top: -273%;
+    left: 37%;
+    z-index: 5;
+}
+#eh36{
+    top: -283%;
+    left: 41%;
+    z-index: 4;
+}
+#eh37{
+    top: -294%;
+    left: 45%;
+    z-index: 3;
+}
+#eh38{
+    top: -304%;
+    left: 49%;
+    z-index: 2;
+}
+#eh39{
+    top: -314%;
+    left: 51%;
+    z-index: 1;
+}
+
